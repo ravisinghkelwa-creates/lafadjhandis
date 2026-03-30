@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Righteous&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Premium Banarasi Theme - Mature & Refined */
+  --background: 0 0% 9%;
+  --foreground: 35 20% 90%;
+
+  --card: 0 0% 12%;
+  --card-foreground: 35 15% 88%;
+
+  --popover: 0 0% 11%;
+  --popover-foreground: 35 15% 88%;
+
+  --primary: 345 45% 35%; /* Deep Maroon / Wine */
+  --primary-foreground: 35 20% 95%;
+
+  --secondary: 200 25% 40%; /* Soft Ganga Blue */
+  --secondary-foreground: 35 20% 95%;
+
+  --accent: 40 35% 50%; /* Muted Gold */
+  --accent-foreground: 0 0% 9%;
+
+  --muted: 0 0% 16%;
+  --muted-foreground: 35 12% 60%;
+
+  --destructive: 0 55% 45%;
+  --destructive-foreground: 35 20% 95%;
+
+  --border: 0 0% 18%;
+  --input: 0 0% 15%;
+  --ring: 345 45% 35%;
+
+  /* Warm Sand/Beige accent for subtle highlights */
+  --sand: 35 25% 75%;
+
+  --radius: 0.5rem;
+
+  --font-display: 'Righteous', cursive;
+  --font-mono: 'Space Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+    background-image: 
+      radial-gradient(circle at 50% 0%, hsl(var(--primary) / 0.03), transparent 50%),
+      radial-gradient(circle at 100% 50%, hsl(var(--secondary) / 0.02), transparent 40%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-wide;
+  }
+
+  /* Improved text rendering */
+  p, span, a {
+    @apply leading-relaxed;
+  }
+}
+
+@layer utilities {
+  /* Subtle glow effects - reduced for premium feel */
+  .text-glow {
+    text-shadow: 0 0 30px hsl(var(--primary) / 0.2);
+  }
+  .text-glow-gold {
+    text-shadow: 0 0 20px hsl(var(--accent) / 0.25);
+  }
+  .box-glow {
+    box-shadow: 0 0 20px -8px hsl(var(--primary) / 0.2);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-muted rounded-full border-2 border-background;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground;
+}
