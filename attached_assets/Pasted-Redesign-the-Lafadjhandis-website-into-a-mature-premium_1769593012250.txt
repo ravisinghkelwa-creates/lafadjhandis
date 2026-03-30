@@ -1,0 +1,144 @@
+Redesign the Lafadjhandis website into a mature, premium, fun, Banaras-inspired nostalgia brand — NOT childish or neon.
+
+OVERALL GOAL:
+Make the site feel like:
+- Cool IIT BHU alumni nostalgia
+- Banaras cultural vibe
+- Inside jokes for grown-ups
+- Fun, witty, understated, and premium
+Avoid cringe, over-poetry, cartoon UI, loud colors, or kid-like styling.
+
+--------------------
+COLOR THEME (IMPORTANT)
+--------------------
+Replace bright/neon colors with a refined palette:
+- Deep Maroon / Wine (primary)
+- Warm Beige / Sand (background accents)
+- Muted Gold (highlights)
+- Charcoal / Dark Gray (base background)
+- Soft Ganga Blue (very subtle accent)
+
+Tone: warm, calm, classy, Banarasi-at-dusk.
+Reduce glow effects, gradients, heavy shadows, and cartoon colors.
+
+--------------------
+BACKGROUND STYLE
+--------------------
+Add a REAL subtle background image layer in hero sections:
+- Banaras ghats / River Ganga / IIT BHU gate
+- Blur heavily
+- Opacity: 5–10%
+- Add dark overlay so text remains readable
+Must feel like a faint memory, not a travel wallpaper.
+
+--------------------
+TYPOGRAPHY & TONE
+--------------------
+Text tone = witty, light, insider, non-cringe, grown-up fun.
+Avoid over-poetic or dramatic Hindi lines.
+Use short, clever, minimal copy.
+
+Examples of tone:
+- "Banaras, dosti, aur thodi si bakchodi."
+- "Inside jokes. Real friendships."
+- "Hostel nights. Lifetime legends."
+- "You had to be there."
+- "Gaane jo repeat pe chale."
+- "Only insiders score full marks."
+
+--------------------
+HOMEPAGE STRUCTURE
+--------------------
+
+HERO SECTION:
+Title: "Lafadjhandis"
+Subtitle options (pick best):
+- "Banaras, dosti, aur thodi si bakchodi."
+- "Inside jokes. Real friendships."
+- "Hostel nights. Lifetime legends."
+
+Buttons:
+- Explore Legends
+- Play Games
+- Music Lounge
+- Take the Quiz
+
+Keep hero clean, centered, cinematic, not noisy.
+
+--------------------
+SECTION 2 — ORIGIN (SHORT)
+Title: "How this started"
+Text example:
+"Started in IIT BHU.
+Powered by chai, deadlines, and bad decisions.
+Still going strong."
+
+--------------------
+SECTION 3 — LEGENDS / FRIENDS
+Title: "The Usual Suspects"
+Subtitle examples:
+- "Core memory contributors."
+- "People who made college survivable."
+
+Tile layout:
+- Minimal cards
+- Name + 1 witty one-liner only
+- No loud badges or childish graphics
+
+--------------------
+SECTION 4 — MUSIC LOUNGE
+Title: "Music Lounge"
+Subtitle examples:
+- "Late night playlist. No skips."
+- "Gaane jo repeat pe chale."
+
+Cards should look clean, premium, Spotify-like — not flashy.
+
+--------------------
+SECTION 5 — GAMES ZONE
+Title: "Games"
+Subtitle examples:
+- "Timepass, but competitive."
+- "Winner gets bragging rights."
+
+Cards for Tic Tac Toe, RPS, etc. should feel modern and minimal.
+
+--------------------
+SECTION 6 — QUIZ (IIT BHU × BANARAS)
+Title: "BHU × Banaras Insider Quiz"
+Subtitle examples:
+- "Only insiders score full marks."
+- "Proof that you were there."
+
+Make it feel like a serious fun challenge — not cartoonish.
+
+--------------------
+SECTION 7 — AI ZONE
+Title: "AI Playground"
+Subtitle examples:
+- "Mostly useful. Sometimes savage."
+- "Fun, but unpredictable."
+
+--------------------
+SECTION 8 — NEWS / PULSE
+Title: "BHU × Banaras Pulse"
+Subtitle:
+- "What’s happening in campus, city, and alumni circles."
+
+Show 3–5 clean cards only.
+No clutter.
+
+--------------------
+FOOTER
+--------------------
+Minimal footer text examples:
+- "Built for insiders."
+- "Banaras made us do it."
+- "Some things never graduate."
+
+--------------------
+DESIGN RULES
+--------------------
+- Keep layout clean and breathable
+- Reduce number of colors
+- Reduce animations and flashy effects
